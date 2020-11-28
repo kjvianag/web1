@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Somos una empresa que se dedica a la Fabricación de Fachadas en vidrios templados, Instalación de divisiones para baño, Puertas ventanas y ventanas en aluminio en los sistemas convencionales, Barandas en acero inoxidable, Barandas en acero y vidrio templados, cerramiento en aluminio y hierro. Ofrecemos Servicio de Mantenimientos de sus fachadas y puertas en vidrios templados y sistemas de aluminios." />
+    <meta name="robots" content="index,follow" />
+    <title>Star Glass & Metales de Colombia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/Logo star glass.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="vendors/animate/animate.css" rel="stylesheet">
+    <!-- Icon CSS-->
+	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <!-- Camera Slider -->
+    <link rel="stylesheet" href="vendors/camera-slider/camera.css">
+    <!-- Owlcarousel CSS-->
+	<link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+
+    <!--Theme Styles CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'> var nW,nH,oH,oW; function zoomToggle(iWideSmall,iHighSmall,iWideLarge,iHighLarge,whichImage){ oW=whichImage.style.width;oH=whichImage.style.height; if((oW==iWideLarge)||(oH==iHighLarge)){ nW=iWideSmall;nH=iHighSmall; }else{ nW=iWideLarge;nH=iHighLarge; } whichImage.style.width=nW;whichImage.style.height=nH; }</script> 
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    
+    
+    <script type="text/javascript">
+    function scroll_efecto(elemento){    
+     var x = $("#"+elemento).offset();
+     x=x.top;
+     $('body, html').animate({
+       scrollTop: x+'px'
+      }, 500); //el 500 ese es el tiempo de la animación
+   
+    }
+    
+    $(document).ready(function(){
+	$(".cerrarMenu").click(function () {
+            $('.navbar-right').click();
+	});
+    });
+    
+    
+    function ver_imagen(img){
+        $('#modalimagen').html('');
+        jQuery('#modalimagen').append('<img style="width:100%;height:420px" src="images/gallery/'+img+'">');
+    }
+    </script>
+   
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+	<!-- Top Header_Area -->
+	<section class="top_header_area">
+	    <div class="container">
+            <ul class="nav navbar-nav top_nav">
+                <li><a><i class="fa fa-phone"></i>+57 3043900962 - (035) 3772554</a></li>
+                <li><a href="mailto:"><i class="fa fa-envelope-o"></i>eliecer0523@gmail.com</a></li>
+                <li><a><i class="fa fa-clock-o"></i>
+                        <script>
+                            var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                            var f=new Date();
+                            document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                    </script>
+                    </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right social_nav">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+	    </div>
+	</section>
+	<!-- End Top Header_Area -->
+
+	<!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
+        <div class="container">
+            <!-- searchForm -->
+            <div class="searchForm">
+                <form action="#" class="row m0">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="search" name="search" class="form-control" placeholder="Type & Hit Enter">
+                        <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
+                    </div>
+                </form>
+            </div><!-- End searchForm -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-2 p0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/Logo star glass.jpg" alt="" width="60"></a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-md-10 p0">
+                <div class="collapse navbar-collapse" id="min_navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="navbar-link" href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link cerrarMenu" style="cursor:pointer;" onclick="scroll_efecto('nosotros')">Nosotros</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link cerrarMenu" style="cursor:pointer;" onclick="scroll_efecto('servicios')">Servicios</a>
+                        </li>
+                         <li>
+                            <a class="navbar-link cerrarMenu" style="cursor:pointer;" onclick="scroll_efecto('proyectos')">Proyectos</a>
+                        </li>
+                        <li><a class="navbar-link cerrarMenu" href="contact.html">Contacto</a></li>
+                        <!--<li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>-->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container -->
+    </nav>
+	<!-- End Header_Area -->
+
+    <!-- Slider area -->
+    <section class="slider_area row m0">
+        <div class="slider_inner">
+            <div data-thumb="images/slider-1.jpg" data-src="images/slider-1.jpg">
+                <div class="camera_caption">
+                   <div class="container">
+                        <h1 class=" wow fadeInUp animated">BIENVENIDO</h1>
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s"> </h3>
+                        <p class=" wow fadeInUp animated" data-wow-delay="0.8s"> </p>
+                   </div>
+                </div>
+            </div>
+            <div data-thumb="images/slider-2.jpg" data-src="images/slider-2.jpg">
+                <div class="camera_caption">
+                   <div class="container">
+                        <h1 class=" wow fadeInUp animated">BIENVENIDO</h1>
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s"> </h3>
+                        <p class=" wow fadeInUp animated" data-wow-delay="0.8s"> </p>
+                   </div>
+                </div>
+            </div>
+            <div data-thumb="images/slider-3.jpg" data-src="images/slider-3.jpg">
+                <div class="camera_caption">
+                   <div class="container">
+                        <h1 class=" wow fadeInUp animated">BIENVENIDO</h1>
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s"> </h3>
+                        <p class=" wow fadeInUp animated" data-wow-delay="0.8s"> </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Slider area -->
+
+    <!-- Professional Builde -->
+    <section class="professional_builder row">
+        <div class="container">
+           <div class="row builder_all">
+                <div class="col-md-3 col-sm-6 builder">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                    <h4>Trabajo en Equipo</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 builder">
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    <h4>Cálidad</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 builder">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <h4>Siempre a Tiempo</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 builder">
+                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                    <h4>Honestidad</h4>
+                </div>
+           </div>
+        </div>
+    </section>
+    <!-- End Professional Builde -->
+
+    <!-- About Us Area -->
+    <section class="about_us_area featured_works row" data-stellar-background-ratio="0.3" id="nosotros">      
+        <div class="container">
+            <br/>
+            <div class="tittle wow fadeInUp">
+                <h2>Quines Somos</h2>
+                <p></p>
+            </div>
+            <div class="row about_row">
+                <div class="who_we_area col-md-7 col-sm-6">
+                    <h4 class="text-justify" style="color:#fff;font:400 24px 'Oswald', sans-serif;">Somos una empresa que se dedica a la Fabricación de Fachadas en vidrios templados, Instalación de divisiones para baño, Puertas ventanas y ventanas en aluminio en los sistemas convencionales, Barandas en acero inoxidable, Barandas en acero y vidrio templados, cerramiento en aluminio y hierro. Ofrecemos Servicio de Mantenimientos de sus fachadas y puertas en vidrios templados y sistemas de aluminios.</h4>
+                  
+                    <a href="contact.html" class="button_all">Contactar</a>
+                </div>
+                <div class="col-md-5 col-sm-6 about_client">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>  
+        </div>        
+    </section>
+    <!-- End About Us Area -->
+
+
+    <section class="professional_builder row">
+        <div class="container">
+           <div class="row builder_all">
+                <div class="col-md-6 col-sm-6 builder">
+                    <h2 class="text-left">Misión</h2>
+                    <p class="text-justify">Satisfacer las necesidades de nuestros clientes y en obras con la más alta calidad, mediante la transformación del Aluminio, Vidrio y Acero inoxidable para lograr un producto final de uso Arquitectónico, en un tiempo acorde pactado con nuestros clientes.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 builder">
+                    <h2 class="text-left">Visión</h2>
+                    <p class="text-justify">Ser una empresa líder en la transformación del Aluminio, Vidrio y Acero inoxidable, con una alta calidad y cumplimiento a nivel nacional para el año 2020.</p>
+                </div>
+           </div>
+        </div>
+    </section>
+     
+
+    <!-- Our Services Area -->
+    <section class="our_services_area" id="servicios">
+        <div class="container">
+            <br/>
+            <div class="tittle wow fadeInUp">
+                <h2>Nuestros Servicios</h2>
+                <h4></h4>
+            </div>
+            <div class="portfolio_inner_area">
+                <div class="portfolio_filter">
+                    <ul>
+                        <li data-filter="*" class="active"><a href=""> Todos</a></li>
+                        <li data-filter=".photography"><a href="">Vidrio</a></li>
+                        <li data-filter=".branding"><a href="">Aluminio</a></li>
+                        <li data-filter=".webdesign"><a href="">Acero</a></li>
+                        <li data-filter=".adversting"><a href="">Divisiones de Baño</a></li>
+                        <li data-filter=".painting"><a href="">Fachadas</a></li>
+                        <li data-filter=".webdesign"><a href="">Barandas en Acero y Vidrio</a></li>
+                        <li data-filter=""><a href="">Diseño de Software y Páginas Web</a></li>
+                    </ul>
+                </div>
+                <div class="portfolio_item">
+                   <div class="grid-sizer"></div>
+                   <div class="single_facilities col-xs-4 p0 photography">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/vidrio 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Vidrio</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('vidrio 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 branding">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/puerta_ventana 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Aluminio</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('puerta_ventana 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                   <div class="single_facilities col-xs-4 p0 branding">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/puerta_ventana 2.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Aluminio</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('puerta_ventana 2.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division_baño 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones de Baño</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division_baño 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division_baño 3.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones de Baño</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division_baño 3.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division_baño 4.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones de Baño</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division_baño 4.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division_baño 5.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones de Baño</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division_baño 5.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 adversting">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/division_baño 6.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Divisiones de Baño</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('division_baño 6.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 painting p0">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/fachada 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Fachadas</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('fachada 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities col-xs-4 p0 webdesign">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/baranda 1.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Barandas</h4>
+                                <ul>
+                                    <li>
+                                        <!--<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('baranda 1.jpg')"><i class="fa fa-search"></i></button>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="single_facilities col-xs-4 p0 webdesign">
+                       <div class="single_facilities_inner">
+                           <img src="images/gallery/baranda 2.jpg" alt="">
+                            <div class="gallery_hover">
+                                <h4>Barandas</h4>
+                                <ul>
+                                    <li>
+                                            <!--<a href="#"><i class="fa fa-search" aria-hidden="true" data-toggle="modal" data-target="#exampleModalCenter"></i></a>-->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" onclick="ver_imagen('baranda 2.jpg')"><i class="fa fa-search"></i></button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Services Area -->
+
+    
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body" id="modalimagen">
+       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    <!-- Our Featured Works Area -->
+    <section class="featured_works row" data-stellar-background-ratio="0.3" id="proyectos">
+        <br/>
+        <div class="tittle wow fadeInUp">
+            <h2>NUESTROS PROYECTOS</h2>
+            <h4></h4>
+        </div>
+        <div class="featured_gallery">
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/" alt="">
+                <div class="gallery_hover">
+                    <h4></h4>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Featured Works Area -->
+
+    <!-- Our Partners Area -->
+    <section class="our_partners_area">
+        <div class="container">
+            <div class="tittle wow fadeInUp">
+                <h2>Nuestros Clientes</h2>
+                <h4></h4>
+            </div>
+            <div class="partners">
+                <div class="item"><img src="images/client_logo/" alt=""></div>
+                <div class="item"><img src="images/client_logo/" alt=""></div>
+                <div class="item"><img src="images/client_logo/" alt=""></div>
+                <div class="item"><img src="images/client_logo/" alt=""></div>
+                <div class="item"><img src="images/client_logo/" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Partners Area -->
+
+    <!-- Footer Area -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer_row row">
+                <div class="col-md-3 col-sm-6 footer_about">                    
+                    <img src="images/logo.png" alt="">                    
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about quick">
+                    <h2></h2>
+                    <ul class="quick_link">
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <ul class="socail_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <h2>CONTACTO</h2>
+                    <address>
+                        <p>Preguntas, comentarios:</p>
+                        <ul class="my_address">
+                            <li><a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i>eliecer0523@gmail.com</a></li>
+                            <li><a><i class="fa fa-phone" aria-hidden="true"></i>+57 3043900962 - (035) 3772554</a></li>
+                            <li><a><i class="fa fa-map-marker" aria-hidden="true"></i><span>Calle 20 # 17-20, Corredor Universitario, <br> Barranquilla, Colombia</span></a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_area">
+            Copyright 2018 All rights reserved. Designed by <a href="">Kviana</a>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <!-- jQuery JS -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animate JS -->
+    <script src="vendors/animate/wow.min.js"></script>
+    <!-- Camera Slider -->
+    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
+    <script src="vendors/camera-slider/camera.min.js"></script>
+    <!-- Isotope JS -->
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <!-- Progress JS -->
+    <script src="vendors/Counter-Up/jquery.counterup.min.js"></script>
+    <script src="vendors/Counter-Up/waypoints.min.js"></script>
+    <!-- Owlcarousel JS -->
+    <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Stellar JS -->
+    <script src="vendors/stellar/jquery.stellar.js"></script>
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+    
+</body>
+</html>
